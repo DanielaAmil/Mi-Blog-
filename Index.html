@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Página Personal</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            background-color: #e496e5;
+            color: #77a3e1;
+        }
+        header {
+            background-color: #71bcf1;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        h2 {
+            color: #333;
+        }
+        .personal-info, .contact, .hobbies {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .personal-info div, .contact div, .hobbies div {
+            width: 48%;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        audio {
+            display: block;
+            margin: 15px 0;
+        }
+        ul {
+            list-style-type: square;
+        }
+        ul ul {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Página Personal</h1>
+</header>
+
+<nav>
+    <a href="#datos-personales">Datos Personales</a>
+    <a href="#escolaridad">Escolaridad</a>
+    <a href="#gustos-aficiones">Gustos y Aficiones</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="datos-personales">
+    <h2>Datos Personales</h2>
+    <div class="personal-info">
+        <div>
+            <p><strong>Nombre:</strong> Daniela Yoslin Gonzalez Amil</p>
+            <p><strong>Edad:</strong> 20 años</p>
+            <p><strong>Profesión:</strong>Estudiante de Ingeniera en Sistemas</p>
+        </div>
+        <div>
+            <img src="IMG.webp" alt="Dani">
+        </div>
+    </div>
+</section>
+
+<section id="escolaridad">
+    <h2>Escolaridad</h2>
+    <ul>
+        <li>Cursando el septimo semestre de Universidad</li>
+    </ul>
+</section>
+
+<section id="cv-resumido">
+    <h2>CV Resumido</h2>
+    <p>Actualmente estoy en séptimo semestre de mi carrera universitaria , cursando las materias de:</p>
+    <ul>
+        <li>Desarrollo de aplicaciones web</del></li>
+        <li>Programacion de videojuegos</li>
+        <li>Comercio electronico</li>
+        <li>Redes lll </li>
+        <li>Administracion de sistemas operativos de redes </li>
+        <li>Calidad de software </li>
+        <li>Seguridad de la infromacion </li>
+    </ul>
+</section>
+
+<section id="gustos-aficiones">
+    <h2>Gustos, Aficiones y Pasatiempos</h2>
+    <div class="hobbies">
+        <div>
+               
+            <h3>Pasatiempos</h3>
+            <ul>
+                <li>Correr</li>
+                <li>Tocar el piano</li>
+                <li>Fotografía</li>
+            </ul>
+            <div>
+                <img src="pia.jpg" >
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="multimedia">
+    <h2>Multimedia</h2>
+    <p>Una de mis canciones favoritas:</p>
+    <audio controls>
+        <source src="Guns N_ Roses - November Rain(MP3_70K).mp3" type="audio/mp3">
+    </audio>
+</section>
+
+<section id="deportes-animal">
+    <h2>Deportes y Animal Favorito</h2>
+    <p>Mi deportes Favorito es:</p>
+    <ul>
+        <li>Balocesto</li>
+        <li>Atletismo</li>
+        <div></div>
+            <img src="balon.webp" >
+        </div>
+    </ul>
+    <p>Mi animal favorito es el perro.</p>
+    <img src="perro.jpg" >
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contact">
+        
+        <div>
+            <p> envíame un correo a: <a href="mailto:maria@example.com">danigonzamil@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Daniela Yoselin Gonzalez Amil</p>
+</footer>
+
+</body>
+</html>
